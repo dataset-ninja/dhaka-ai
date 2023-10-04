@@ -22,10 +22,10 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v2()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Domain.VehicleDetection(),
+    Domain.VehicleDetection(is_used=False),
     Research.UrbanPlanning(),
 ]
-CATEGORY: Category = Category.General()
+CATEGORY: Category = Category.Surveillance(extra=Category.EnergyAndUtilities())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -60,10 +60,12 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[
+    Union[str, List[str], Dict[str, str]]
+] = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/POREXF"
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Abir ASM Shihavuddin"]
+AUTHORS: Optional[List[str]] = ["Abir ASM Shihavuddin", "Mohammad Rifat Ahmmad Rashid"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
