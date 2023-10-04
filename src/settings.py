@@ -65,7 +65,7 @@ REPOSITORY: Optional[
 ] = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/POREXF"
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Abir ASM Shihavuddin", "Mohammad Rifat Ahmmad Rashid"]
+AUTHORS: Optional[List[str]] = ["ASM Shihavuddin", "Mohammad Rifat Ahmmad Rashid"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None

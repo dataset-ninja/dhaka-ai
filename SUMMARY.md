@@ -1,4 +1,4 @@
-**Dhaka Traffic Detection Challenge Dataset** is a dataset for an object detection task. It is used in the urban planning research, and in the vehicle detection domain. 
+**Dhaka Traffic Detection Challenge Dataset** is a dataset for an object detection task. It is used in the urban planning research. Possible applications of the dataset could be in the vehicle detection domain. 
 
 The dataset consists of 3953 images with 24318 labeled objects belonging to 21 different classes including *car*, *bus*, *motorbike*, and other: *three wheelers (CNG)*, *rickshaw*, *truck*, *pickup*, *minivan*, *suv*, *van*, *bicycle*, *auto rickshaw*, *human hauler*, *wheelbarrow*, *ambulance*, *minibus*, *taxi*, *army vehicle*, *scooter*, *policecar*, and *garbagevan*.
 
