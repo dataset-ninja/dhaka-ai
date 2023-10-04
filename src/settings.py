@@ -22,8 +22,8 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v2()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Research.UrbanPlanning(),
     Domain.VehicleDetection(),
+    Research.UrbanPlanning(),
 ]
 CATEGORY: Category = Category.General()
 
