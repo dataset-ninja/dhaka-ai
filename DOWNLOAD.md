@@ -1,6 +1,6 @@
 Dataset **Dhaka-AI** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/f/Q/mX/xDbygzFBtEAH4jWj0Qrwf140O7Y0Pa5zn2WVlczUuakI7i6igk10UZif5rDe9AcOZ6tTsaKEuAaeTCA0GZW4E61uzQXcWht86lAv8GehijXBU54M3V2fAt5J3nr0.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
