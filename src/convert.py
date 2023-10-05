@@ -177,6 +177,5 @@ def convert_and_upload_supervisely_project(
             img_infos = api.image.upload_paths(dataset.id, img_names_batch, img_pathes_batch)
             img_ids = [im_info.id for im_info in img_infos]
             anns = [create_ann(image_path) for image_path in img_pathes_batch]
-            api.project.update_meta(project.id, meta)
             api.annotation.upload_anns(img_ids, anns)
     return project
