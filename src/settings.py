@@ -35,7 +35,7 @@ if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2020
 
 HOMEPAGE_URL: str = (
-    "https://www.kaggle.com/datasets/rifat963/dhakaai-dhaka-based-traffic-detection-dataset"
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/POREXF"
 )
 # e.g. "https://some.com/dataset/homepage"
 
@@ -62,7 +62,7 @@ PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/POREXF"
+] = {"Kaggle": "https://www.kaggle.com/datasets/rifat963/dhakaai-dhaka-based-traffic-detection-dataset"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["ASM Shihavuddin", "Mohammad Rifat Ahmmad Rashid"]
