@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.GNU_GPL_v2()
+LICENSE: License = License.CC0_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Domain.VehicleDetection(is_used=False),
     Research.UrbanPlanning(),
