@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Dhaka-AI"
-PROJECT_NAME_FULL: str = "Dhaka Traffic Detection Challenge Dataset"
+PROJECT_NAME_FULL: str = "Dhaka-AI: Dhaka Traffic Detection Challenge Dataset"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
@@ -66,6 +66,7 @@ REPOSITORY: Optional[
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["ASM Shihavuddin", "Mohammad Rifat Ahmmad Rashid"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://www.kaggle.com/rifat963", "https://www.kaggle.com/syeedshihav"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
@@ -119,6 +120,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
